@@ -1,6 +1,9 @@
-# 🧠 KotlinSessions – 100 Days of Kotlin Journey 🚀
+<h1> Lets go Kotlin</h1>
 
-Welcome to my **100 Days of Kotlin** learning journey! This repository contains all my Kotlin practice sessions, from beginner to advanced level, with well-organized code examples and explanations.........
+## 🧠 KotlinSessions – 100 Days of Kotlin Journey 🚀
+
+Welcome to my **100 Days of Kotlin** learning journey! This repository contains all my Kotlin practice sessions, from beginner to advanced level, with well-organized code examples and explanations.
+
 
 ---
 
