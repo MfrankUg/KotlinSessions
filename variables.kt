@@ -8,6 +8,9 @@ fun main(){
     var a = 1
     a=2
     println(a)
-
+     var b = 2
+       b = a + b
+    // This is for summations
+    println(b)
 
 }
