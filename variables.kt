@@ -13,10 +13,17 @@ fun main() {
     // This is for summations
     println(b)
     Cards(test = "test")
+    animals()
 }
-
-
     fun Cards(test: String){
 
         println("Hello_2 $test")
     }
+   fun animals(){
+       var name = mutableListOf("Cat" , "Dogs", "Bears",)
+       name = mutableListOf("Sheep", "Cows", "Goats")
+       println(name)
+       println(name.size)
+
+
+}
