@@ -53,5 +53,6 @@ fun repeats(){
      for(fightCount in 1 ..6){
         println("The count is $fightCount")
     }
+    // To continue
 
 }
