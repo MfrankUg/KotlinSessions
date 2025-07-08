@@ -15,6 +15,7 @@ fun main() {
     Cards(test = "test")
     animals()
     count()
+    repeats()
 }
     fun Cards(test: String){
 
@@ -49,7 +50,7 @@ fun repeats(){
 
 
 
-     for(fightCount in 1..5){
+     for(fightCount in 1 ..6){
         println("The count is $fightCount")
     }
 
