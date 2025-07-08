@@ -14,6 +14,8 @@ fun main() {
     println(b)
     Cards(test = "test")
     animals()
+    count()
+    repeats()
 }
     fun Cards(test: String){
 
@@ -24,6 +26,33 @@ fun main() {
        name = mutableListOf("Sheep", "Cows", "Goats")
        println(name)
        println(name.size)
+}
+ // practice on Loops
+fun count(){
+    val count1 = 1
+     for( count1 in 1..5 ){
+         println( "This is number $count1")
 
+     }
+}
+
+// practice on for loops
+
+fun repeats(){
+    val playerName1= "James"
+    val prayerName2 = "Jerry"
+    var player1Score =1
+    player1Score ++
+    var player2Score =2
+    player2Score --
+    var fightCount = 0
+    fightCount = player2Score + player1Score
+
+
+
+     for(fightCount in 1 ..6){
+        println("The count is $fightCount")
+    }
+    // To continue
 
 }
