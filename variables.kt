@@ -16,6 +16,19 @@ fun main() {
     animals()
     count()
     repeats()
+
+    // more trial
+    val scoreLevel1 = 100
+    val scoreLevel2 = 98
+    val scoreLevel3 = 52
+    val totalScore =  scoreLevel3 + scoreLevel2 + scoreLevel1
+    val averageScore = totalScore/3
+    println("The total average score is $averageScore")
+
+    // explicit variables
+    val str: String = "" + 45 + "!"
+    println(str)
+
 }
     fun Cards(test: String){
 
@@ -38,21 +51,20 @@ fun count(){
 
 // practice on for loops
 
-fun repeats(){
-    val playerName1= "James"
+fun repeats() {
+    val playerName1 = "James"
     val prayerName2 = "Jerry"
-    var player1Score =1
-    player1Score ++
-    var player2Score =2
-    player2Score --
+    var player1Score = 1
+    player1Score++
+    var player2Score = 2
+    player2Score--
     var fightCount = 0
     fightCount = player2Score + player1Score
-
-
 
      for(fightCount in 1 ..6){
         println("The count is $fightCount")
     }
     // To continue
-
 }
+
+
