@@ -21,9 +21,9 @@ fun main() {
     val scoreLevel1 = 100
     val scoreLevel2 = 98
     val scoreLevel3 = 52
-    val totalScore = scoreLevel2 + scoreLevel1
+    val totalScore =  scoreLevel3 + scoreLevel2 + scoreLevel1
     val averageScore = totalScore/3
-    println(averageScore)
+    println("The total average score is $averageScore")
 
 
 }
