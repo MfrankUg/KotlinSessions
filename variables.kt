@@ -29,6 +29,17 @@ fun main() {
     val str: String = "" + 45 + "!"
     println(str)
 
+    // use of any variable
+    var structure :Any = "Block"
+    structure = 5
+    structure = true
+
+    println(structure)
+
+    // Basic numeric calculations
+
+    println(1 + 2*3)
+
 }
     fun Cards(test: String){
 
