@@ -25,6 +25,9 @@ fun main() {
     val averageScore = totalScore/3
     println("The total average score is $averageScore")
 
+    // explicit variables
+    val str: String = "" + 45 + "!"
+    println(str)
 
 }
     fun Cards(test: String){
