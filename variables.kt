@@ -23,6 +23,7 @@ fun main() {
     val scoreLevel3 = 52
     val totalScore = scoreLevel2 + scoreLevel1
     val averageScore = totalScore/3
+    println(averageScore)
 
 
 }
