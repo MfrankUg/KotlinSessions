@@ -51,6 +51,12 @@ fun main() {
     println("The modulus of 5%2 is ${5%2}")
     println("The modulus of 2%5 is ${2%5}")
 
+    val strVal1 = 5
+    val strVal2 = 30
+    val strFinal = strVal2 / strVal2
+    println("This is a conversion ${(strFinal).toFloat()}")
+
+
 
 }
     fun Cards(test: String){
