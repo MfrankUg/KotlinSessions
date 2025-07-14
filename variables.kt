@@ -51,12 +51,23 @@ fun main() {
     println("The modulus of 5%2 is ${5%2}")
     println("The modulus of 2%5 is ${2%5}")
 
-    val strVal1:Int = 5
-    val strVal2: Int = 30
-    var strFinal = strVal1 / strVal2
-    // The answer below is always a zero because of having Int values
+    var strVal1 = 5
+    val strVal2 = 30
+    /* val strFinal = strVal1 / strVal2
+    The answer below is always a zero because of having Int values
+     Correction of this is */
+    val strFinal = strVal1.toDouble() / strVal2
     println("This is a conversion ${(strFinal).toFloat()}")
-    // Correction of this is
+    // prefix and Postfix
+    var eq1 = 6
+    eq1 --
+    println("This is a demonstration of Prefix and the value is $eq1")
+    eq1 ++
+    println("This is a demonstration of postfix and the value is $eq1")
+
+
+
+
 
 
 
