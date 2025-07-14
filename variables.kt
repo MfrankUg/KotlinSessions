@@ -29,6 +29,29 @@ fun main() {
     val str: String = "" + 45 + "!"
     println(str)
 
+    // use of any variable
+    var structure :Any = "Block"
+    structure = 5
+    structure = true
+
+    println(structure)
+
+    // Basic numeric calculations
+
+    println(1 + 2*3)
+
+    // more on numbers
+    val smallInt: Int = 15
+    val largeValue: Float = smallInt.toFloat()
+    val veryLarge : Double = smallInt.toDouble()
+
+    println("This is the conversion of value from int $smallInt to float $largeValue and Double $veryLarge")
+     // more on calculations
+    println("The modulus of 10%2 is ${10%2}")
+    println("The modulus of 5%2 is ${5%2}")
+    println("The modulus of 2%5 is ${2%5}")
+
+
 }
     fun Cards(test: String){
 
