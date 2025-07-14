@@ -46,6 +46,10 @@ fun main() {
     val veryLarge : Double = smallInt.toDouble()
 
     println("This is the conversion of value from int $smallInt to float $largeValue and Double $veryLarge")
+     // more on calculations
+    println("The modulus of 10%2 is ${10%2}")
+    println("The modulus of 5%2 is ${5%2}")
+    println("The modulus of 2%5 is ${2%5}")
 
 
 }
