@@ -40,6 +40,14 @@ fun main() {
 
     println(1 + 2*3)
 
+    // more on numbers
+    val smallInt: Int = 15
+    val largeValue: Float = smallInt.toFloat()
+    val veryLarge : Double = smallInt.toDouble()
+
+    println("This is the conversion of value from int $smallInt to float $largeValue and Double $veryLarge")
+
+
 }
     fun Cards(test: String){
 
