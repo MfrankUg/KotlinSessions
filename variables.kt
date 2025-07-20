@@ -77,7 +77,24 @@ fun main() {
     val car2: Char = 'a'
     println("This is the unicode of a ${car2.code}")
 
-    //
+    // Understanding Strings
+
+    /* These represent a sequence of characters
+    * Examples below
+    */
+    val age = 'a'
+    val myString = age.toString()
+    println("Here is the conversion of a char to string $myString")
+
+
+    // Searching in Strings
+    // if true the string starts with He
+    val myStr1 = "Hey"
+    val startsWith = myStr1.startsWith("He")
+    println("In search the Hey starts with $startsWith")
+
+
+
 
 
 
