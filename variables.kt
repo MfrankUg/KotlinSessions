@@ -64,13 +64,20 @@ fun main() {
     println("This is a demonstration of Prefix and the value is $eq1")
     eq1 ++
     println("This is a demonstration of postfix and the value is $eq1")
+    
+   // Understanding unicode
+   /* all characters are represented by numbers but in binary code
+    *  A special table called the Unicode was then created to map characters to numbers
+    * E.g A = 65
+    * It supports up to 144,697 different characters
+    * Below is a practice example
+    */
+ val car1: Char = 'A'
+    println("This is the unicode of A ${car1.code}")
+    val car2: Char = 'a'
+    println("This is the unicode of a ${car2.code}")
 
-
-
-
-
-
-
+    //
 
 
 
