@@ -24,7 +24,7 @@ fun main(){
 
     val free = if (pack == "free") "display ads" else "no ads"
     println("This is a free version $free")
-
+    // practice on if_functions
 
     val finishedHomework = true
     if (finishedHomework) {
