@@ -32,6 +32,14 @@ fun main(){
 
     }
 
+    val isWorkDone = true
+    if (isWorkDone){
+        println("Well done you have done the work...")
+    }
+    else {
+        println("work harder please.")
+    }
+
 
 
 }
