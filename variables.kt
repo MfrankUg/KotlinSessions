@@ -51,6 +51,53 @@ fun main() {
     println("The modulus of 5%2 is ${5%2}")
     println("The modulus of 2%5 is ${2%5}")
 
+    var strVal1 = 5
+    val strVal2 = 30
+    /* val strFinal = strVal1 / strVal2
+    The answer below is always a zero because of having Int values
+     Correction of this is */
+    val strFinal = strVal1.toDouble() / strVal2
+    println("This is a conversion ${(strFinal).toFloat()}")
+    // prefix and Postfix
+    var eq1 = 6
+    eq1 --
+    println("This is a demonstration of Prefix and the value is $eq1")
+    eq1 ++
+    println("This is a demonstration of postfix and the value is $eq1")
+    
+   // Understanding unicode
+   /* all characters are represented by numbers but in binary code
+    *  A special table called the Unicode was then created to map characters to numbers
+    * E.g A = 65
+    * It supports up to 144,697 different characters
+    * Below is a practice example
+    */
+ val car1: Char = 'A'
+    println("This is the unicode of A ${car1.code}")
+    val car2: Char = 'a'
+    println("This is the unicode of a ${car2.code}")
+
+    // Understanding Strings
+
+    /* These represent a sequence of characters
+    * Examples below
+    */
+    val age = 'a'
+    val myString = age.toString()
+    println("Here is the conversion of a char to string $myString")
+
+
+    // Searching in Strings
+    // if true the string starts with He
+    val myStr1 = "Hey"
+    val startsWith = myStr1.startsWith("He")
+    println("In search the Hey starts with $startsWith")
+
+
+
+
+
+
 
 }
     fun Cards(test: String){
